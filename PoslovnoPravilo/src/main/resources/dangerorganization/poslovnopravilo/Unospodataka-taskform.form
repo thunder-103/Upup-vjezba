@@ -3,4 +3,38 @@
 <property name="name" value="Unospodataka-taskform.form"/>
 <property name="displayMode" value="default"/>
 <property name="status" value="0"/>
+<field position="3" name="vozilo_id_cijena" type="InputTextInteger" id="1562843545">
+<property name="fieldRequired" value="false"/>
+<property name="groupWithPrevious" value="false"/>
+<property name="label" value="quot;enquot;,quot;cijena (vozilo_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vozilo_in/cijena"/>
+<property name="outputBinding" value="vozilo_out/cijena"/>
+<property name="fieldClass" value="java.lang.Integer"/>
+</field>
+<field position="0" name="vozilo_id_model" type="InputText" id="135210883">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;model (vozilo_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vozilo_in/model"/>
+<property name="outputBinding" value="vozilo_out/model"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="1" name="vozilo_id_motor" type="InputText" id="562042340">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;motor (vozilo_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vozilo_in/motor"/>
+<property name="outputBinding" value="vozilo_out/motor"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<field position="2" name="vozilo_id_vrsta" type="InputText" id="1323016832">
+<property name="fieldRequired" value="false"/>
+<property name="label" value="quot;enquot;,quot;vrsta (vozilo_id)quot;"/>
+<property name="readonly" value="false"/>
+<property name="inputBinding" value="vozilo_in/vrsta"/>
+<property name="outputBinding" value="vozilo_out/vrsta"/>
+<property name="fieldClass" value="java.lang.String"/>
+</field>
+<dataHolder inputId="vozilo_in" name="#E9E371" type="dataModelerEntry" outId="vozilo_out" value="dangerorganization.poslovnopravilo.Vozilo" id="vozilo_id"/>
 </form>
